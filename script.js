@@ -33,3 +33,11 @@ function limpar() {
     valor1 = '';
     document.getElementById('resultado').innerHTML = '';
 }
+
+function limparCN(){
+    resultado = document.getElementById('resultado').innerHTML;
+
+    resultadoArray = resultado.split();
+    console.log(resultadoArray)
+
+}
